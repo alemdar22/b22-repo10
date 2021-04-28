@@ -1,0 +1,66 @@
+Very first thing I prepare is test documentation in other words my to do list
+Before I start testing the VM i make sure that all testable features are visible and physically accessible.As a tester I will find out and report the expected and actuals results.
+The purpose of this test is that the user should be able insert money and get a drink from the VM.
+
+As a tester I check and verify that VM is plugged in so that the test cases can be conducted as expected.
+This VM is for 10 types cold drinks and the capacity is 60 drinks.so check if every single drink exists in the VM as stated in the requirement.
+Check if the drinks and the code numbers are clearly visible to the user.
+
+Next i go on with functional testing.
+-check if display screen works and display screen is readeble by user.
+-check if there is a language option.
+check if product buttons from 0-9  are there and working properly
+-check if product codes match the entered product.
+-check if the slot for coins accepts coins and the coin counter correctly counts the amount insertd.
+-check if there is any direction for the location of returned coins or bills
+check if coin and paper money sections cooperate properly
+-check if paper money section accepts and VM returns correct change if there is any.
+check if cc swiper functions rights.
+-check if the item drops down and is available for the user to collect.
+check if there is enough room in the dispenser area for the users hand to collect the drink.
+-check if VM is suitable for the disabled user 
+
+I also test the hardware with various scenarios
+-check if the color of VM is as required by the customer
+-check if the logo of the customer is correctly located on the VM as required by the customer
+-check if the buttons to enter the drink code are not too high up for the average height user
+-check if the VM is properly locked.
+-check if coin collecter is not too small for storing coins
+-check if day time and night time lighting in the VM works properly
+
+As a tester my other approach will be  testin gperformance of the VM
+-check if enterd code correctly any entered item is coming out
+-check if the items comes out at a standard time .. not early not late
+-check if the cooler of the VM keeps the drinks at the desired temperature not colder nor warmer
+-check the max and min amount of money accepted by the VM
+
+I also perform a security test by
+- check if correct voltage is used for the VM
+-check if VM safely connected to the wall behind it so it never gets shaky
+-check if  mandatory warning signs by law are visible
+
+Coming to the negative test cases;
+- I can try a real but don’t have sufficient balanced credit card and I should be able to see warning message and not dispense the product.
+ - I can try a card which not like a credit card (costco card..) and I should be able to see the transaction not to go 
+- I can try with in proper cash/coin machine does not give desire item.
+-check when  power is out and an extra battery is installed so Vm still runs and drinks are kept cold.
+-check if there is no power user should see "drinks are not cold" message
+- check if paper money accepter sorts out counterfit bills and gives warning to the user
+-check with foreign currency
+-check by entering invalid code
+
+STRESS TEST
+- shake it
+-kick it
+-press hard on buttons
+-bang on the screen 
+
+If VM passes all these tests it  is  ready  and safe to use.
+
+
+
+
+
+
+
+
